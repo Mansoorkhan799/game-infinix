@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Game Infinix for PC Download Latest Version Free 2026',
@@ -99,7 +98,7 @@ export default function GameInfinixForPCPage() {
             Free 2026
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            The <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link> app is a popular platform where you can enjoy playing card games anytime. <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Game Infinix</a> to get started on mobile, or follow this guide to play on PC. The games offer a wide range of games like Classic Teen Patti, Andar Bahar, Dragon Tiger, Rummy, poker, and other mini games you can play to earn real cash. The game also provides daily bonuses to boost your balance.
+            The <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link> app is a popular platform where you can enjoy playing card games anytime. <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Game Infinix</a> to get started on mobile, or follow this guide to play on PC. The games offer a wide range of games like Classic Teen Patti, Andar Bahar, Dragon Tiger, Rummy, poker, and other mini games you can play to earn real cash. The game also provides daily bonuses to boost your balance.
           </p>
         </div>
 
@@ -242,7 +241,7 @@ export default function GameInfinixForPCPage() {
           {/* Download Button */}
           <div className="flex justify-center mt-10">
             <a 
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
@@ -457,7 +456,7 @@ export default function GameInfinixForPCPage() {
             Download Game Infinix and install it using your favorite emulator!
           </p>
           <a 
-            href={DOWNLOAD_URL}
+            href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-[#0ea5e9] hover:bg-gray-100 font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"

@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Game Infinix App Review 2026: Features, Pros, Cons, and Payout Speed',
@@ -406,7 +405,7 @@ export default function BlogGameInfinixAppReview() {
 
           <div className="mt-12 text-center">
             <a 
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"

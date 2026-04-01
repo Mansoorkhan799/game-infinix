@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'How to Use Game Infinix App in Pakistan: Complete Beginner\'s Guide 2026',
@@ -92,7 +91,7 @@ export default function BlogHowToUseGameInfinixGuide() {
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Download Process</h3>
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
             <li>Visit the official <Link href="/" className="text-[#FFA500] hover:underline font-semibold">Game Infinix</Link> website: gameinfinix.net.pk</li>
-            <li>Click the big "Download APK" button (usually orange or green) - or visit our <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-[#FFA500] hover:underline font-semibold">download page</a></li>
+            <li>Click the big "Download APK" button (usually orange or green) - or visit our <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-[#FFA500] hover:underline font-semibold">download page</a></li>
             <li>Your browser will warn you about downloading from unknown sources - click "OK" or "Download anyway"</li>
             <li>Wait for the APK file to download (typically 50-80MB, takes 30 seconds to 2 minutes)</li>
           </ol>
@@ -606,7 +605,7 @@ export default function BlogHowToUseGameInfinixGuide() {
 
           <div className="mt-12 text-center">
             <a 
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"

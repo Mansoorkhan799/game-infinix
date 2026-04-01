@@ -42,7 +42,7 @@ const nextConfig = {
         destination: '/',
         permanent: true,
       },
-      // Legacy URL slugs (old site) → current Game Infinix routes
+      // SEO: 301s for old indexed URL paths only (must keep exact `source` strings)
       { source: '/download-card-rummy', destination: '/download-game-infinix', permanent: true },
       { source: '/deposit-money-in-card-rummy', destination: '/deposit-money-in-game-infinix', permanent: true },
       { source: '/withdraw-money-from-card-rummy', destination: '/withdraw-money-from-game-infinix', permanent: true },

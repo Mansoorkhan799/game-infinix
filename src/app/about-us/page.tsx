@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'About Game Infinix - Pakistan\'s Premier Card Gaming Platform',
@@ -77,7 +76,7 @@ export default function AboutPage() {
               <div className="md:w-2/3 md:pl-4 lg:pl-6">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.gameinfinix.net.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.gameinfinix.net.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>. <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Game Infinix</a> now to join thousands of players earning real cash rewards.
+                    Welcome to <a href="https://www.gameinfinix.net.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.gameinfinix.net.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>. <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Game Infinix</a> now to join thousands of players earning real cash rewards.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.

@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Tips to Win Big in Game Infinix - Expert Strategies & Tricks 2026',
@@ -57,7 +56,7 @@ export default function TipsToWinBig() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Want to maximize your winnings in Game Infinix? If you haven't already, <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Game Infinix</a> to get started. Whether you're playing Teen Patti, Rummy, Dragon vs Tiger, or other card games, these expert strategies and tips will help you play smarter and earn more real cash. Follow these proven techniques to boost your success rate and become a winning player.
+                  Want to maximize your winnings in Game Infinix? If you haven't already, <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Game Infinix</a> to get started. Whether you're playing Teen Patti, Rummy, Dragon vs Tiger, or other card games, these expert strategies and tips will help you play smarter and earn more real cash. Follow these proven techniques to boost your success rate and become a winning player.
                 </p>
               </div>
 
@@ -279,7 +278,7 @@ export default function TipsToWinBig() {
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Apply these expert tips and strategies to maximize your winnings in Game Infinix. Download the app now and start playing smarter!</p>
                 
                 <Link 
-                  href={DOWNLOAD_URL}
+                  href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"

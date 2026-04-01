@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Game Infinix Latest Version: New Features and 2026 Updates',
@@ -117,7 +116,7 @@ export default function BlogGameInfinixLatestVersionNewFeatures() {
           
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
             <li>Visit the official <Link href="/" className="text-[#FFA500] hover:underline font-semibold">Game Infinix</Link> website</li>
-            <li>Go to the <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-[#FFA500] hover:underline font-semibold">download page</a></li>
+            <li>Go to the <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-[#FFA500] hover:underline font-semibold">download page</a></li>
             <li>Download the latest APK (V1.230)</li>
             <li>Install over your existing app (your account and balance stay intact)</li>
             <li>Login and enjoy new features!</li>
@@ -131,7 +130,7 @@ export default function BlogGameInfinixLatestVersionNewFeatures() {
 
           <div className="mt-12 text-center">
             <a 
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"

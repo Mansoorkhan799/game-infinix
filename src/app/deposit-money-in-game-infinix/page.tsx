@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
-import { DOWNLOAD_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'How to Deposit Money in Game Infinix? | Quick & Safe Payment Guide 2026',
@@ -39,7 +38,7 @@ export default function DepositMoneyPage() {
               Quick, Safe & Easy Payment Methods with JazzCash and EasyPaisa
             </p>
             <Link
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -69,7 +68,7 @@ export default function DepositMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link> is an exciting online game where users can play many amazing games daily. If you haven't already, <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Game Infinix</a> to get started. You need to deposit money to enjoy it without any problems. Adding funds to the Game Infinix is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
+                <Link href="/" className="text-accent hover:underline font-semibold">Game Infinix</Link> is an exciting online game where users can play many amazing games daily. If you haven't already, <a href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download Game Infinix</a> to get started. You need to deposit money to enjoy it without any problems. Adding funds to the Game Infinix is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Game Infinix offers a simple deposit method that all new players can use without any confusion. It takes only a few minutes, and your money will be added immediately. Once you've earned money through gameplay, you can easily <Link href="/withdraw-money-from-game-infinix" className="text-accent hover:underline font-semibold">withdraw money from Game Infinix</Link> using the same secure payment methods.
@@ -274,7 +273,7 @@ export default function DepositMoneyPage() {
               Download Game Infinix now and deposit money to start earning real cash!
             </p>
             <Link
-              href={DOWNLOAD_URL}
+              href="https://gameinfinix.com/?from_gameid=4601151&channelCode=1700000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
