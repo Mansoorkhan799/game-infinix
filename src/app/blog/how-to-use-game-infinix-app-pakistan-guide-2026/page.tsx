@@ -99,7 +99,7 @@ export default function BlogHowToUseGameInfinixGuide() {
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Installation Process</h3>
           <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-3">
             <li>Open your "Downloads" folder or notification bar</li>
-            <li>Tap the downloaded APK file (named something like "Game Infinix_v1.230.apk")</li>
+            <li>Tap the downloaded APK file (named something like "Game Infinix_v3.2(1).apk")</li>
             <li>If prompted, go to Settings → Security → Enable "Install from Unknown Sources"</li>
             <li>Go back and tap the APK again</li>
             <li>Click "Install" and wait 10-30 seconds</li>
@@ -610,7 +610,7 @@ export default function BlogHowToUseGameInfinixGuide() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download Game Infinix APK v1.230 - Start Your Journey
+              Download Game Infinix APK v3.2(1) - Start Your Journey
             </a>
           </div>
         </div>

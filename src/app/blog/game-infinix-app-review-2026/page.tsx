@@ -410,7 +410,7 @@ export default function BlogGameInfinixAppReview() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download Game Infinix APK v1.230
+              Download Game Infinix APK v3.2(1)
             </a>
           </div>
         </div>

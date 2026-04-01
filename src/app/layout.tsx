@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://gameinfinix.net.pk'),
   title: {
-    default: "Game Infinix Pakistan v1.230 Free Download Official APK",
+    default: "Game Infinix Pakistan v3.2(1) Free Download Official APK",
     template: "%s | Game Infinix"
   },
   description: "Game Infinix 2026 — Pakistan's #1 card game platform for 3 Patti Game Infinix & Teen Patti Game Infinix fans. Download the APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. JazzCash & EasyPaisa. 500K+ players!",
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     canonical: "https://gameinfinix.net.pk",
   },
   openGraph: {
-    title: "Game Infinix Pakistan v1.230 Free Download Official APK",
+    title: "Game Infinix Pakistan v3.2(1) Free Download Official APK",
     description: "Game Infinix 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     url: "https://gameinfinix.net.pk",
     siteName: "Game Infinix",
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Game Infinix Pakistan v1.230 Free Download Official APK",
+    title: "Game Infinix Pakistan v3.2(1) Free Download Official APK",
     description: "Game Infinix 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     creator: "@gameinfinix",
     images: [

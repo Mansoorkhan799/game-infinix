@@ -8,7 +8,7 @@ import { DOWNLOAD_URL } from '@/lib/site';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "Game Infinix Pakistan v1.230 Free Download Official APK",
+    default: "Game Infinix Pakistan v3.2(1) Free Download Official APK",
     template: "%s | Game Infinix"
   },
   description: "Game Infinix 2026 — Pakistan's #1 card game platform for 3 Patti Game Infinix & Teen Patti Game Infinix. Download APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. JazzCash & EasyPaisa. 500K+ players!",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     "rummy game download"
   ],
   openGraph: {
-    title: 'Game Infinix Pakistan v1.230 Free Download Official APK',
+    title: 'Game Infinix Pakistan v3.2(1) Free Download Official APK',
     description: 'Game Infinix 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Game Infinix Pakistan v1.230 Free Download Official APK',
+    title: 'Game Infinix Pakistan v3.2(1) Free Download Official APK',
     description: 'Game Infinix 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://gameinfinix.net.pk/game-infinix.webp', 'https://gameinfinix.net.pk/feature/og-image.webp']
   }
@@ -92,7 +92,7 @@ export default function Home() {
         "@type": "WebPage",
         "@id": "https://gameinfinix.net.pk/#webpage",
         "url": "https://gameinfinix.net.pk/",
-        "name": "Game Infinix Pakistan v1.230 Free Download Official APK",
+        "name": "Game Infinix Pakistan v3.2(1) Free Download Official APK",
         "description": "Game Infinix 2026 - Pakistan's #1 card game platform. Download Game Infinix APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash.",
         "isPartOf": { "@id": "https://gameinfinix.net.pk/#website" },
         "primaryImageOfPage": {
@@ -157,7 +157,7 @@ export default function Home() {
           "priceCurrency": "PKR"
         },
         "downloadUrl": DOWNLOAD_URL,
-        "softwareVersion": "V1.230",
+        "softwareVersion": "3.2(1)",
         "fileSize": "49MB",
         "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
         "screenshot": [
@@ -396,7 +396,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.230</td>
+                  <td className="py-4 px-6 text-left text-white">3.2(1)</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
@@ -591,20 +591,6 @@ export default function Home() {
               </div>
               <p className="text-center text-gray-300 mt-3 font-medium">Refer & Earn</p>
             </div>
-          </div>
-
-          <div className="mt-12 max-w-4xl mx-auto bg-[#0A1029]/90 border border-gray-700 rounded-xl p-6 md:p-8 text-gray-300 text-sm md:text-base leading-relaxed space-y-4">
-            <h3 className="text-xl font-bold text-[#FFA500] text-center">What the latest app screens show</h3>
-            <p>
-              We reviewed your current PNG/WebP UI (OCR from the same assets in <code className="text-accent">/public</code>): the home lobby highlights games like <strong className="text-gray-200">Dragon vs Tiger</strong> and <strong className="text-gray-200">Roulette</strong>-style tiles, bonus strips, and quick links such as Mall and Support — ideal for{' '}
-              <strong className="text-gray-200">3 patti Game Infinix</strong> and <strong className="text-gray-200">Teen Patti Game Infinix</strong> traffic landing on real tables.
-            </p>
-            <p>
-              Bonus pages show <strong className="text-gray-200">Recharge Rebate</strong> and VIP-style tiers with percentage bonuses and wager rules (e.g. stepped rebates and daily cash-back style promos). Deposit screens show balance lines and live online indicators; the wallet flow uses <strong className="text-gray-200">Current Chip</strong>, <strong className="text-gray-200">Chip in Safe</strong>, and a <strong className="text-gray-200">CHIP OUT</strong> action for withdrawals — always confirm limits in-app.
-            </p>
-            <p className="text-gray-400 text-xs md:text-sm">
-              App icon and rules footers reference <strong className="text-gray-300">gameinfinix.net.pk</strong>. Amounts and promotions change; use the live app as the source of truth.
-            </p>
           </div>
         </div>
       </section>
@@ -847,7 +833,7 @@ export default function Home() {
           <div className="mb-8">
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
             <li>First, you open the browser on your Android device and click on the search bar.</li>
-            <li>In the search bar, type the latest version of 3Game Infinix and visit the trusted website.</li>
+            <li>In the search bar, type Game Infinix or visit the trusted website (e.g. gameinfinix.net.pk).</li>
             <li>On the trusted website, click on the Download button to start downloading.</li>
             <li>Now wait a few seconds to complete the downloading process.</li>
             <li>Once complete, that file will be saved in the Download Folder of the device.</li>
