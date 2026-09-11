@@ -141,18 +141,19 @@ export default function DownloadPage() {
 
         {/* Logo/Image Section */}
         <div className="flex justify-center mb-12">
-          <Image
-            src="/game-infinix.webp"
-            alt="Game Infinix - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger. Download Game Infinix APK."
-            title="Game Infinix – Free Download APK for Android"
-            width={420}
-            height={420}
-            className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
-            priority={true}
-            fetchPriority="high"
-            quality={90}
-            sizes="(max-width: 768px) 260px, 320px"
-          />
+          <div className="hero-media">
+            <Image
+              src="/game-infinix.webp"
+              alt="Game Infinix - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger. Download Game Infinix APK."
+              title="Game Infinix – Free Download APK for Android"
+              fill
+              className="object-contain drop-shadow-2xl"
+              priority={true}
+              fetchPriority="high"
+              quality={90}
+              sizes="(max-width: 768px) 260px, 320px"
+            />
+          </div>
         </div>
       </section>
 

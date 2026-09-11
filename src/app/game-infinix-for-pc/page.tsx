@@ -109,8 +109,8 @@ export default function GameInfinixForPCPage() {
               src="/game-infinix.webp"
               alt="Game Infinix for PC – Play on Windows with Android Emulator"
               title="Game Infinix for PC – Download & Play on Windows"
-              width={320}
-              height={320}
+              fill
+              sizes="280px"
               className="object-contain drop-shadow-2xl"
               priority={true}
             />

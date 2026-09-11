@@ -18,10 +18,8 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* Prevent CLS by ensuring images don't shift layout */
 img {
   max-width: 100%;
-  height: auto;
 }
 
 /* Footer: contain layout to reduce CLS from reflow */
@@ -29,14 +27,24 @@ footer {
   contain: layout;
 }
 
-/* Optimize font loading to prevent layout shift */
-body {
-  font-display: swap;
-}
-
 /* Prevent font-related layout shifts */
 * {
   font-family: inherit;
+}
+
+/* Reserved boxes so images cannot collapse then expand (CLS) */
+.hero-media {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .hero-media {
+    width: 320px;
+    height: 320px;
+  }
 }
 
 

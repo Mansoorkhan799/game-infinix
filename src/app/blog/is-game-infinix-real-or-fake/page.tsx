@@ -120,7 +120,7 @@ export default function GameInfinixRealOrFakePage() {
         </div>
         
         {/* Featured Image */}
-        <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
+        <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8" style={{ minHeight: 256 }}>
           <Image
             src="/game-infinix.webp"
             alt="Game Infinix Real or Fake"

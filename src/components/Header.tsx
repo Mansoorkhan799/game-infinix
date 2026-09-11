@@ -6,11 +6,11 @@ import MobileNavigation from './MobileNavigation';
 
 export default function Header() {
   return (
-    <header className="bg-primary py-3 px-4 md:px-8 sticky top-0 z-30 border-b border-gray-800">
+    <header className="bg-primary py-3 px-4 md:px-8 sticky top-0 z-30 border-b border-gray-800" style={{ minHeight: 64 }}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-10 w-10 mr-2">
+          <div className="relative mr-2" style={{ width: 40, height: 40 }}>
             <Image
               src="/game-infinix.webp"
               alt="Game Infinix Logo"

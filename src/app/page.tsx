@@ -353,19 +353,20 @@ export default function Home() {
             <meta itemProp="name" content="Game Infinix" />
             <meta itemProp="description" content="Game Infinix - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger. Download Game Infinix APK for Android." />
             <meta itemProp="url" content="https://gameinfinix.net.pk/game-infinix.webp" />
-            <Image
-              src="/game-infinix.webp"
-              alt="Game Infinix – Pakistan's #1 Card Game App"
-              title="Game Infinix – Download & Play Teen Patti, Rummy, Dragon vs Tiger"
-              width={420}
-              height={420}
-              className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
-              priority={true}
-              fetchPriority="high"
-              quality={90}
-              sizes="(max-width: 768px) 260px, 320px"
-              itemProp="image"
-            />
+            <div className="hero-media">
+              <Image
+                src="/game-infinix.webp"
+                alt="Game Infinix – Pakistan's #1 Card Game App"
+                title="Game Infinix – Download & Play Teen Patti, Rummy, Dragon vs Tiger"
+                fill
+                className="object-contain drop-shadow-2xl"
+                priority={true}
+                fetchPriority="high"
+                quality={90}
+                sizes="(max-width: 768px) 260px, 320px"
+                itemProp="image"
+              />
+            </div>
             <figcaption className="sr-only">Game Infinix – Pakistan&apos;s #1 card game app. Download the APK and play Teen Patti, Rummy, Dragon vs Tiger. Win real cash via JazzCash &amp; EasyPaisa.</figcaption>
           </figure>
         </div>
@@ -498,13 +499,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Interface */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-interface.webp"
                   alt="Game Infinix Interface"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -514,13 +514,12 @@ export default function Home() {
 
             {/* Games Collection */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-games.webp"
                   alt="Game Infinix Games Collection"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -530,13 +529,12 @@ export default function Home() {
 
             {/* Bonuses */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-apk.webp"
                   alt="Game Infinix Bonuses & Rewards"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -546,13 +544,12 @@ export default function Home() {
 
             {/* Add Money */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-add-money.webp"
                   alt="Game Infinix Deposit Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -562,13 +559,12 @@ export default function Home() {
 
             {/* Withdraw Money */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-withdraw-money.webp"
                   alt="Game Infinix Withdraw Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -578,13 +574,12 @@ export default function Home() {
 
             {/* Refer and Earn */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '1200 / 565', width: '100%' }}>
                 <Image
                   src="/game-infinix-refer-and-earn.webp"
                   alt="Game Infinix Refer and Earn"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
+                  fill
+                  className="object-contain"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />

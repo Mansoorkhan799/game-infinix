@@ -46,13 +46,13 @@ export default function WithdrawMoneyPage() {
               Download & Start Earning
             </Link>
             <div className="mt-10 flex justify-center">
-              <div className="relative w-48 h-48 md:w-56 md:h-56">
+              <div className="relative w-48 h-48 md:w-56 md:h-56" style={{ minWidth: 192, minHeight: 192 }}>
                 <Image
                   src="/game-infinix.webp"
                   alt="Game Infinix - Pakistan's #1 card game app. Play Teen Patti, Rummy, Dragon vs Tiger."
                   title="Game Infinix – Withdraw Money via JazzCash & EasyPaisa"
-                  width={224}
-                  height={224}
+                  fill
+                  sizes="(max-width: 768px) 192px, 224px"
                   className="object-contain drop-shadow-2xl"
                   priority
                 />
