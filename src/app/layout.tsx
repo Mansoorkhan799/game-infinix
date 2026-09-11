@@ -210,7 +210,7 @@ export default function RootLayout({
               "logo": "https://gameinfinix.net.pk/game-infinix.webp",
               "description": "Game Infinix is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
               "sameAs": [
-                "https://facebook.com/gameinfinix",
+                "https://www.facebook.com/share/1KZnZFoez9/?mibextid=wwXIfr",
                 "https://twitter.com/gameinfinix"
               ]
             })

@@ -130,7 +130,7 @@ export default function Home() {
           "creditText": "Game Infinix logo"
         },
         "sameAs": [
-          "https://www.facebook.com/share/1at8tjJcje/"
+          "https://www.facebook.com/share/1KZnZFoez9/?mibextid=wwXIfr"
         ],
         "contactPoint": {
           "@type": "ContactPoint",

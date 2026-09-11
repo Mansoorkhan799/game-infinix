@@ -130,7 +130,7 @@ export default function AboutPage() {
                 "name": "Pakistan"
               },
               "sameAs": [
-                "https://facebook.com/gameinfinix",
+                "https://www.facebook.com/share/1KZnZFoez9/?mibextid=wwXIfr",
                 "https://twitter.com/gameinfinix"
               ],
               "founder": {
